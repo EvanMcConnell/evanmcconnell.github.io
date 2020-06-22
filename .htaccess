@@ -1,3 +1,5 @@
+DirectoryIndex me.html
+
 RewriteEngine on
 
 
