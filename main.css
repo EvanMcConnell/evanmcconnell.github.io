@@ -20,6 +20,25 @@ header{
     box-shadow: 5px 5px rgb(202, 202, 154);
 }
 
+.button{
+    background-color: #4b435c;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    box-shadow: 10px 10px #475c70;
+}
+
+.button:hover{
+    background-color: #2f2a3a;
+}
+
 ul{
     margin: 0;
 }
@@ -51,7 +70,27 @@ ul{
     font-size: 20px;
     color: rgb(237, 237, 180);
     text-shadow: 5px 0px #4e376c;
+    text-align: center;
+}
+
+.featured_gif{
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    max-width: 500px;
+    box-shadow: 10px 10px #475c70;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.centre_retro_heading{
+    font-family: 'Press Start 2P',  sans-serif;
+    font-size: 30px;
+    color: rgb(237, 237, 180);
+    text-shadow: 5px 0px #4e376c;
     align-content: center;
+    display: block;
+    box-sizing: border-box;
 }
 
 ul, a:hover{
@@ -69,6 +108,12 @@ ul, a:hover{
     /*height: 85vh;*/
     width:100%;
     position: unset;
+}
+
+.game_title{
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .profile_pic{
@@ -104,5 +149,4 @@ ul, a:hover{
     border-style: dashed;
     /*box-shadow: 20px 20px #475c70;*/
     box-shadow: 20px 20px rgb(202, 202, 154);
-    text-align: center;
 }
