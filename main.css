@@ -15,15 +15,15 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #779ABD;
-    border-bottom: 5px dashed black;
+    border-bottom: 3px dashed black;
     /*box-shadow: 5px 5px #475c70;*/
     box-shadow: 5px 5px rgb(202, 202, 154);
 }
 
 .button{
-    background-color: #4b435c;
+    /*background-color: #4b435c;*/
+    background-color: rgb(204, 138, 174);
     border: none;
-    color: white;
     margin-right: 10px;
     border-radius: 15px;
     margin-bottom: 10px;
@@ -36,7 +36,7 @@ header{
 }
 
 .button:hover{
-    background-color: #2f2a3a;
+    background-color: rgb(189, 129, 162);
 }
 
 ul{
@@ -49,7 +49,7 @@ ul{
     text-decoration: none;
     font-size: 30px;
     padding: 20px;
-    text-shadow: 5px 0px #4e376c;
+    text-shadow: 5px 5px #475c70;
 }
 
 .active_link{
@@ -58,7 +58,7 @@ ul{
     text-decoration: underline;
     font-size: 30px;
     padding: 15px;
-    text-shadow: 5px 0px #4e376c;
+    text-shadow: 5px 5px #475c70;
 }
 
 .absolute_div{
@@ -69,7 +69,15 @@ ul{
     font-family: 'Press Start 2P',  sans-serif;
     font-size: 20px;
     color: rgb(237, 237, 180);
-    text-shadow: 5px 0px #4e376c;
+    text-shadow: 5px 5px #475c70;
+    text-align: center;
+}
+
+.button_text{
+    font-family: 'Press Start 2P',  sans-serif;
+    font-size: 20px;
+    color: rgb(237, 237, 180);
+    text-shadow: 5px 5px rgb(124, 85, 107);
     text-align: center;
 }
 
@@ -87,13 +95,13 @@ ul{
     font-family: 'Press Start 2P',  sans-serif;
     font-size: 30px;
     color: rgb(237, 237, 180);
-    text-shadow: 5px 0px #4e376c;
+    text-shadow: 5px 5px #4e376c;
     align-content: center;
     display: block;
     box-sizing: border-box;
 }
 
-ul, a:hover{
+.nav_link:hover{
     color: rgba(237, 237, 180, 0.8)
 }
 
@@ -118,7 +126,7 @@ ul, a:hover{
 
 .profile_pic{
     border-radius: 50%;
-    border: dashed 5px black;
+    border: dashed 3px black;
     box-shadow: 10px 10px #475c70
 }
 
@@ -144,9 +152,38 @@ ul, a:hover{
     width: 50%;
     background-color: #779ABD;
     padding: 25px;
-    border: black;
-    border-width: 5px;
-    border-style: dashed;
+    border: 3px dashed black;
     /*box-shadow: 20px 20px #475c70;*/
     box-shadow: 20px 20px rgb(202, 202, 154);
+}
+
+.art_row{
+    width: 90%;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    margin: 100px auto;
+    display: table;
+}
+
+.art_item{
+    width: 300px;
+    height: 300px;
+    background-color: #779ABD;
+    margin: 0px 30px;
+    transition: 1s;
+    box-shadow: 20px 20px rgb(202, 202, 154);
+    border: 2px dashed black;
+    padding: 5px;
+    display: inline-block;
+}
+
+.art_item:hover{
+    transform: scale(1.3);
+    box-shadow: 0px 0px rgb(202, 202, 154);
+}
+
+.art_piece{
+    max-width: 290px;
+    max-height: 290px;
 }
