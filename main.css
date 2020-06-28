@@ -111,12 +111,40 @@ ul {
     padding: 20px;
 }
 
-.walking-gif {
+.centre_box_20width{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 20%;
+    background-color: #779ABD;
+    padding: 25px;
+    border: black;
+    border-width: 3px;
+    border-style: dashed;
+    /*box-shadow: 20px 20px #475c70;*/
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.6);
+}
+
+.welcome_box {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 30%;
+    background-color: #779ABD;
+    border: black;
+    border-width: 3px;
+    border-style: dashed;
+    /*box-shadow: 20px 20px #475c70;*/
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.welcome_pic {
     /*margin: 10%;
     margin-left: 25%;*/
     /*height: 85vh;*/
     width: 100%;
-    position: unset;
+    /*position: unset;*/
 }
 
 .game_title {
@@ -124,6 +152,7 @@ ul {
     display: inline-block;
     vertical-align: middle;
 }
+
 
 .profile_pic {
     border-radius: 50%;
@@ -205,7 +234,7 @@ ul {
 }
 
 .art_piece {
-    max-width: 100%;
+    min-width: 100%;
     max-height: 100%;
     margin: auto;
 }
