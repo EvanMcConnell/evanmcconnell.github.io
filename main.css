@@ -86,7 +86,7 @@ ul {
     margin: auto;
     display: inline-block;
     position: relative;
-    max-width: 500px;
+    max-width: 45%;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.6);
     vertical-align: middle;
     box-sizing: border-box;
@@ -148,6 +148,7 @@ ul {
 }
 
 .game_title {
+    width:50%;
     margin-left: 20px;
     display: inline-block;
     vertical-align: middle;
@@ -203,12 +204,22 @@ ul {
     grid-gap: 1rem;
 }
 
+@media (min-width: 0px) {
+    .art_row { grid-template-columns: repeat(2, 1fr); }
+    .featured_gif { max-width: 95%; }
+    .game_title { width: 95%; text-align: center; }
+  }
+
 @media (min-width: 750px) {
     .art_row { grid-template-columns: repeat(2, 1fr); }
+    .featured_gif { max-width: 95%; }
+    .game_title { width: 95%; text-align: center; }
   }
 
   @media (min-width: 1200px) {
     .art_row { grid-template-columns: repeat(3, 1fr); }
+    .featured_gif { max-width: 45%; }
+    .game_title { width: 50%; }
   }
 
   @media (min-width: 1650px) {
