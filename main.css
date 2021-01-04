@@ -176,7 +176,7 @@ ul {
 
 .profile_pic {
     border-radius: 50%;
-    border: dashed 3px black;
+    /*border: dashed 3px black;*/
     box-shadow: 10px 10px rgba(0, 0, 0, 0.6);
     width: 100%;
     display: inline;
