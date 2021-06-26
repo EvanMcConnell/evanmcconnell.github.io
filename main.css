@@ -29,7 +29,7 @@ header {
     /*background-color: #de78ae; */
     background-color: #64958f;
     border: none;
-    margin-right: 10px;
+    margin-right: 2vw;
     border-radius: 15px;
     margin-bottom: 10px;
     padding: 25px;
@@ -88,6 +88,7 @@ ul {
     color: #faf3dd;
     /*text-shadow: 5px 5px rgba(0, 0, 0, 0.6);*/
     text-align: center;
+    padding: 0 10vw 0 10vw;
 }
 
 .button_text {
@@ -148,7 +149,8 @@ ul {
     margin-bottom: 50px;
     width: 70vw;
     /* min-width: 880px; */
-    height: 50vh;
+    /* height: 50vh; */
+    height: 70vh;
     background-color: #065c6f;
     padding: 2vw;
     /* border: 3px dashed black; */
